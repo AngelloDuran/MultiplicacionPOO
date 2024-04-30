@@ -1,7 +1,7 @@
 // se declara la clase
 public class Multiplicacion {
     // se declaran las variables
-    int a, b, r;
+    private int a, b, r;
 
     // se declara el metodo
     public int multiplicar(int a, int b) {
@@ -11,4 +11,28 @@ public class Multiplicacion {
         // se cierra el metodo multiplicar
     }
     // se cierra la clase
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public void setB(int b) {
+        this.b = b;
+    }
+
+    public int getR() {
+        return r;
+    }
+
+    public void setR(int r) {
+        this.r = r;
+    }
 }

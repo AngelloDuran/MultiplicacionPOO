@@ -1,3 +1,4 @@
+
 // se importa la libreria Scanner
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class MainMultiplicacion {
         // se llama al metodo Scanner
         Scanner n1 = new Scanner(System.in);
         // se ingresa el mensaje que se le dara al usuario
-Multiplicacion m1 = new Multiplicacion();
+        Multiplicacion m1 = new Multiplicacion();
         System.out.println("Ingresa un numero");
         // se almacena el valor del usuario
         int a = n1.nextInt();
@@ -19,10 +20,10 @@ Multiplicacion m1 = new Multiplicacion();
         // se hace la operacion con los datos ingresados por el usuario
         int r = a * b;
         // se imprime el resultado de la operacion y se muestra en pantalla
-        m1.a=a;
-        m1.b=b;
+        m1.setA(a);
+        m1.setB(b);
         m1.multiplicar(a, b);
-        System.out.println("El resultado es :"+ m1.multiplicar(a, b));
+        System.out.println("El resultado es :" + m1.multiplicar(a, b));
 
         // se cierra el metodo mian
     }
