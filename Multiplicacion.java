@@ -35,4 +35,10 @@ public class Multiplicacion {
     public void setR(int r) {
         this.r = r;
     }
+
+    @Override
+    public String toString() {
+        return "Multiplicacion [a=" + a + ", b=" + b + ", r=" + r + "]";
+    }
+
 }
